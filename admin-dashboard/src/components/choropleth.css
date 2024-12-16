@@ -1,0 +1,33 @@
+/* Choropleth.css */
+
+/* Style for the map container */
+#container {
+    height: 800px; /* Make the map larger */
+    width: 100%; /* Ensure it takes full width */
+    margin: 0 auto; /* Center the map horizontally */
+    margin-bottom: 20px; /* Add margin at the bottom */
+  }
+  
+  /* Center the loading spinner */
+  .loading {
+    margin-top: 10em;
+    text-align: center;
+    color: gray;
+    font-size: 16px;
+  }
+  
+  .icon-spinner {
+    font-size: 24px;
+    animation: spin 1.5s linear infinite;
+  }
+  
+  /* Spinner animation */
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  

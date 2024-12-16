@@ -1,0 +1,9 @@
+
+
+.banner-video {
+    width: 100%; /* Makes the video responsive */
+    max-width: 1500px; /* Sets a maximum width */
+    aspect-ratio: 16 / 9; /* Maintains the aspect ratio */
+    margin: 0 auto; /* Ensures centering */
+    margin-bottom: 20px;
+}

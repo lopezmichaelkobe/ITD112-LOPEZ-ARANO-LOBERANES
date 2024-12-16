@@ -1,0 +1,33 @@
+.pagetitle {
+    margin-bottom: 10px;
+    color: #ffffff; /* Default text color for all content */
+}
+
+.pagetitle h1 {
+    font-size: 24px;
+    margin-bottom: 0;
+    font-weight: 600;
+    color: #ffffff; /* Heading color */
+}
+
+.pagetitle .breadcrumb {
+    color: #ffffff; /* Breadcrumb text color */
+}
+
+.pagetitle .breadcrumb-item {
+    color: #ffffff; /* Breadcrumb item color */
+}
+
+.pagetitle .breadcrumb-item a {
+    color: #ffffff; /* Breadcrumb link color */
+    text-decoration: none;
+}
+
+.pagetitle .breadcrumb-item a:hover {
+    color: #cccccc; /* Optional: Breadcrumb link hover color */
+}
+
+.pagetitle .breadcrumb-item::before {
+    color: #ffffff; /* Slash color */
+    margin: 0 5px; /* Optional: Add spacing around the slash */
+}

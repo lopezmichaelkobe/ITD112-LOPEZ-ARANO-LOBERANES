@@ -1,0 +1,17 @@
+{
+    "slides": [
+      {
+      "src": "https://img.freepik.com/free-photo/closeup-shot-rice-plant-sunset-with-plantation-background_181624-42264.jpg?t=st=1732942644~exp=1732946244~hmac=68e9fc64a419fdce7566b94d9f458970e527e1b35bffa7ed67d579c62e2a5b43&w=996",
+      "alt": "Image 1 for carousel"
+      },
+      {
+        "src": "https://www.telegraph.co.uk/content/dam/global-health/2022/10/28/TELEMMGLPICT000232148985_trans_NvBQzQNjv4BqpVlberWd9EgFPZtcLiMQf0Rf_Wk3V23H2268P_XkPxc.jpeg?imwidth=960",
+        "alt": "Image 2 for carousel"
+      },
+      {
+        "src": "https://miro.medium.com/v2/resize:fit:828/format:webp/1*hczKKkOTJHzLYNF6xARE-g.jpeg",
+        "alt": "Image 3 for carousel"
+      }
+    ]
+  }
+  

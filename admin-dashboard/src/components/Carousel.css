@@ -1,0 +1,80 @@
+.carousel {
+    position: relative;
+    left:10px;
+    margin-bottom: 20px; /* Add space below the image */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1135px;
+    height: 500px;
+    overflow: hidden; /* Ensure images are contained within the carousel */
+  }
+  
+  .slide {
+    border-radius: 0.5rem;
+    box-shadow: 0px 0px 7px #666;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover; /* Ensure the image fully covers the container */
+    opacity: 0; /* Hide all images by default */
+    transition: opacity 0.5s linear;
+  }
+  
+  .slide-active {
+    opacity: 1; /* Make the active slide visible */
+  }
+  
+  .slide-transition {
+    transition: transform 0.5s linear;
+    transform: scale(1.1); /* Apply zoom effect during transition */
+  }
+  
+  .slide-hidden {
+    display: none;
+  }
+  
+  .arrow {
+    position: absolute;
+    filter: drop-shadow(0px 0px 5px #555);
+    width: 2rem;
+    height: 2rem;
+    color: white;
+  }
+  
+  .arrow:hover {
+    cursor: pointer;
+  }
+  
+  .arrow-left {
+    left: 1rem;
+  }
+  
+  .arrow-right {
+    right: 1rem;
+  }
+  
+  .indicators {
+    display: flex;
+    position: absolute;
+    bottom: 1rem;
+  }
+  
+  .indicator {
+    background-color: white;
+    height: 0.5rem;
+    width: 0.5rem;
+    border-radius: 100%;
+    border: none;
+    outline: none;
+    box-shadow: 0px 0px 5px #555;
+    margin: 0 0.2rem;
+    cursor: pointer;
+  }
+  
+  .indicator-inactive {
+    background-color: grey;
+  }
+  
