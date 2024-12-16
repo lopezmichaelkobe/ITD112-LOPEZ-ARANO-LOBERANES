@@ -1,18 +1,8 @@
 How to run the code:
 
-Open MongoDBCompass
+npm start on admin-dashboard
 
-npm start the backend first
-
-and if npm start doesnt work on admin-dashboard, run npm install on that terminal first and redo npm start again, it should work.
+once the website has loaded, click Upload CSV button and click Zero_Hunger_Final_SDG.csv file
 
 
-contents inside: 
-
-- signin and signup for admin and client
-
-- crud operation for admin
-
-- rental process for client
-
-- search bar for both users
+we have already registered the database to arano's firebase
