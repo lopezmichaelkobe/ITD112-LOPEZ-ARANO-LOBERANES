@@ -305,7 +305,7 @@ const Choropleth = () => {
         colorAxis: {
           dataClasses: [
             { to: 3, color: '#0000ee' },
-            { from: 3, to: 7, color: '#00eeee' },
+            { from: 3, to: 10, color: '#00eeee' },
             { from: 10, to: 15, color: '#00ee00' },
             { from: 15, to: 20, color: '#bbee00' },
             { from: 20, to: 30, color: '#eeee00' },
