@@ -62,7 +62,7 @@ function UpdateCarMenu() {
     <div className="d-flex vh-100 bg-secondary justify-content-center align-items-center">
       <div className="w-50 bg-white rounded p-3">
         <form onSubmit={handleUpdate}>
-          <h2>Update Car Details</h2>
+          <h2>Update Country Details</h2>
           <div className="mb-2">
             <label htmlFor="country">Country</label>
             <input
